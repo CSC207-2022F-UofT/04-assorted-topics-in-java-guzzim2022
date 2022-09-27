@@ -43,4 +43,5 @@ class DomesticatableTrader extends Trader<Domesticatable> {
 
     }
 
+
 }
