@@ -58,10 +58,9 @@ class DrivableMap {
     public ArrayList<Tradable> getTradable() {
         ArrayList<Tradable> to_return = new ArrayList<Tradable>();
         for (Drivable i: drivable_map.values()) {
-            if (i != null) {
+            if (i instanceof Tradable) {
                 to_return.add((Tradable) i);
             }
-        return to_return;
     }
 
 
